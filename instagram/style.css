@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+    direction: ltr;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    width: 100%;
+}
+
+.container .phone {
+    width: 400px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+/*------------------------header-------------------------------*/
+/*------------------------header(username)-------------------------------*/
+.container .phone .header {
+    width: 400px;
+    height: fit-content;
+    top: 0;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.container .phone .header .username {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.container .phone .header .username span {
+    font-size: 1.2rem;
+}
+
+.container .phone .header .username span i {
+    margin-left: 4px;
+}
+
+.container .phone .header .username a i {
+    font-size: 1.7rem;
+}
+
+
+/*------------------------header(user-information)-------------------------------*/
+.container .phone .header .user-information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0px 15px 15px 15px;
+}
+
+.container .phone .header .user-information img {
+    width: 95px;
+    border-radius: 50%;
+}
+
+.container .phone .header .user-information i {
+    position: absolute;
+    left: 24%;
+    top: 55%;
+    font-size: 1.2rem;
+    color: rgb(0, 157, 255);
+}
+
+.container .phone .header .user-information span {
+    font-size: 1.3rem;
+}
+/*------------------------header(bio)-------------------------------*/
+.container .phone .header .bio {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.container .phone .header .bio span {
+    font-size: 1.2rem;
+}
+
+.container .phone .header .bio span:nth-child(2) {
+    color: rgb(0, 157, 255);
+}
+
+/*------------------------header(edit-profile)-------------------------------*/
+.container .phone .header .edit-profile {
+    width: 350px;
+    background-color: #fff;
+    padding: 5px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(189, 189, 189);
+    cursor: pointer;
+}
+
+.container .phone .header span {
+    font-size: 1.2rem;
+}
+
+/*------------------------header(story)-------------------------------*/
+.container .phone .header .storys {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container .phone .header .storys .New {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .phone .header .storys .New i {
+    border: 1px solid #000;
+    border-radius: 100%;
+    padding: 23px;
+
+}
+
+.container .phone .header .storys .New span {}
+
+.container .phone .header .storys .story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .phone .header .storys .story img {
+    width: 70px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+/*------------------------header(post)-------------------------------*/
+.container .phone .header .post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(189, 189, 189);
+    margin-top: 15px;
+}
+
+.container .phone .header .post div {
+    font-size: 1.8rem;
+    flex: 1;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    cursor: pointer;
+}
+
+.container .phone .header .post div:nth-child(1) {
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.container .phone .header .post div:nth-child(2) {
+    color: rgba(0, 0, 0, .4);
+}
+
+
+/*------------------------main-------------------------------*/
+.container .phone .main {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    height: fit-content;
+    gap: 0 3px;
+}
+
+.container .phone .main div {}
+
+.container .phone .main div img {
+    width: 100%;
+}
+
+/*---------------------------------------footer----------------------------------------*/
+.container .phone .footer {
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    padding: 10px 15px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .phone .footer a {
+    color: #333;
+    font-size: 1.5rem;
+
+}
+
+.container .phone .footer img {
+    width: 50px;
+    border-radius: 50%;
+}
