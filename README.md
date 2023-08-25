@@ -20,7 +20,7 @@ This project is a simple Instagram template built using HTML and CSS with the Fl
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/seyedali-rafazi/instagram-template.git`
+1. Clone the repository: `git clone https://github.com/seyedali-rafazi/instagram_template.git`
 2. Navigate to the project directory: `cd instagram-template`
 
 ## Usage
